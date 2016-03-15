@@ -13,11 +13,11 @@ public enum Coffee {
 
     private double quantity;
 
-    Coffee() {
+    Coffee() {       // constructorul este automat privat
 
     }
 
-    Coffee(double quantity) {
+    Coffee(double quantity) {  // constructor privat (enum are doar constructori privati)
         this.quantity = quantity;
     }
 
