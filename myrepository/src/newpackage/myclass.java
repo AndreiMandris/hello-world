@@ -5,7 +5,6 @@
  */
 package newpackage;
 
-import newpackage.Anotimp;
 
 /**
  *
@@ -27,6 +26,8 @@ public static void main(String[] args){
    for (Anotimp x : Anotimp.values()){
        System.out.println(x);
    }
+   
+   Coffee.SMALL.getQuantity();
     
 }
     
