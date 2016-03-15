@@ -12,6 +12,9 @@ package newpackage;
  */
 public enum Anotimp {
     
-    PRIMAVARA, VARA, TOAMNA, IARNA
+    PRIMAVARA, VARA, TOAMNA, IARNA;
     
+    Anotimp(){ // constructorul unei enum este intotdeauna privat
+        
+    }
 }
