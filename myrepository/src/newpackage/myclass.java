@@ -5,6 +5,8 @@
  */
 package newpackage;
 
+import newpackage.Anotimp;
+
 /**
  *
  * @author Andrei
@@ -12,7 +14,16 @@ package newpackage;
 public class myclass {
 public static void main(String[] args){
     
-    System.out.println("hey");
+   Anotimp a1 = Anotimp.IARNA;
+   
+   switch (a1){
+       case PRIMAVARA:
+       case TOAMNA: System.out.println("Ploua!"); break;
+       case VARA: System.out.println("Este cald!"); break;
+       case IARNA: System.out.println("Este frig!"); break;
+       default: System.out.println("Nu exista acest anotimp.");
+   }
+   
     
 }
     
